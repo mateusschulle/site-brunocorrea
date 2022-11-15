@@ -65,7 +65,7 @@ label {
     background-color: rgba(255, 255, 255, 0.785);
     padding: 0.5em 1em;
     border-radius: 5px;
-    height: 20px;
+    height: 30px;
 }
 
 .login__entrar {
@@ -78,7 +78,7 @@ label {
     padding: 0.5em 0;
     transition: all 500ms;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .login__entrar:hover {
