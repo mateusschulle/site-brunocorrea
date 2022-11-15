@@ -43,6 +43,7 @@
     background-color: #e0e4ce;
     top: 69px;
     padding: 1em;
+    width: 70%;
 }
 
 .login__titulo {
@@ -50,10 +51,11 @@
     margin-bottom: 1em;
     font-weight: 500;
     color: #114d4d;
+    font-size: 20px;
 }
 
 label {
-    font-size: 12px;
+    font-size: 15px;
     margin-bottom: 0.2em;
 }
 .login__input {
@@ -63,6 +65,7 @@ label {
     background-color: rgba(255, 255, 255, 0.785);
     padding: 0.5em 1em;
     border-radius: 5px;
+    height: 20px;
 }
 
 .login__entrar {
