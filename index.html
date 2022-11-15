@@ -24,7 +24,17 @@
                     <li>Contato</li>
                     <li class="navegacao__item item__login">Área do Atleta</li>
                 </ul>
-                <img src="./imagens/login-usuario.svg" alt="">
+                <img class="botao__usuario" src="./imagens/login-usuario.svg" alt="">
+                <form class="container__login" method="post" action="">
+                    <h2 class="login__titulo">Área do Atleta</h2>
+                    <label for="usuario">Usuário</label>
+                    <input class="login__input" id="usuario" type="text" required>
+
+                    <label for="senha">Senha</label>
+                    <input class="login__input" id="senha" type="password" required>
+
+                    <button class="login__entrar" type="submit">ENTRAR</button>
+                </form>
             </nav>
         </header>
     </body>
